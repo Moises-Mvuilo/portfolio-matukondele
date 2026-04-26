@@ -9,6 +9,9 @@
 </head>
 
 <body>
+
+    <div class="particulas"></div>
+
     <nav class="navegacao">
         <ul class="menu">
             <li>
@@ -93,19 +96,22 @@
     </section>
 
     <section id="contatos" class="contatos">
-        <h2 class="contatos-titulo">Contatos</h2>
+        <h2 class="contatos-titulo">Entre em contacto</h2>
 
-        <form class="formulario-contatos" id="formulario">
-            <div class="nome-form">
+        <form class="formulario-contato" id="formulario">
+            <div class="grupo-form">
                 <input placeholder="Nome" class="campo-form">
             </div>
 
             <div class="grupo-form">
-                <textarea placeholder="Digite a sua mensagem" class="text-form"></textarea>
+                <textarea placeholder="Digite a sua mensagem" cols="7" rows="6" class="text-form campo-form"></textarea>
+            </div>
+            <div class="botao">
+            <button type="submit" class="botao-form">Enviar WhatsApp</button>
             </div>
         </form>
         </div>
-
+        <script src="script.js" defer></script>
 </body>
 
 </html>
