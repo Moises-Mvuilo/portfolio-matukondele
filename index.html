@@ -32,7 +32,7 @@
     <main id="inicio" class="cabecalho">
         <img src="./img/foto.png" alt="Foto de Matukondele Moisés" class="foto-perfil">
         <h1>Matukondele Moisés</h1>.
-        <p class="cabecalho-sub-titulo">FullStack Web Developer</p>
+        <p class="cabecalho-sub-titulo">Full-Stack Web Developer</p>
     </main>
 
     <section id="sobre" class="sobre">
@@ -98,13 +98,16 @@
     <section id="contatos" class="contatos">
         <h2 class="contatos-titulo">Entre em contacto</h2>
 
-        <form class="formulario-contato" id="formulario">
+        <form class="formulario-contato" id="formulario" >
             <div class="grupo-form">
-                <input placeholder="Nome" class="campo-form">
+                <input placeholder="Nome" class="campo-form" id="nome">
+            </div>
+            <div class="grupo-form">
+                <input type="tel" placeholder="Telefone" class="campo-form" id="phone" required>
             </div>
 
             <div class="grupo-form">
-                <textarea placeholder="Digite a sua mensagem" cols="7" rows="6" class="text-form campo-form"></textarea>
+                <textarea placeholder="Digite a sua mensagem" cols="7" rows="6" class="text-form campo-form" id="mensagem"></textarea>
             </div>
             <div class="botao">
             <button type="submit" class="botao-form">Enviar WhatsApp</button>
